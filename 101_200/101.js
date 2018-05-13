@@ -11,7 +11,7 @@
  */
 var isSymmetric = function(root) {
     if (!root) {
-        return false;
+        return true;
     }
     return helper(root.left, root.right);
 
