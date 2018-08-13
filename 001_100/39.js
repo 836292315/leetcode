@@ -17,7 +17,7 @@ var combinationSum = function(candidates, target) {
             }
         }
         if (target === 0) {
-            result.push(tem);
+            result.push(tem.slice());
         }
     }
 };
